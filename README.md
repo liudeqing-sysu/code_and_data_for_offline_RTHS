@@ -9,15 +9,15 @@ compatibility, interface equilibrium, adaptive relaxation factor iteration
 
 ## Repository Structure
 
-- `Numerical_Code/`
+- `/Code/Numerical_Code/`
   Numerical simulations, spectral-radius analysis, convergence comparisons,
   and manuscript figure scripts for the cantilever-beam benchmark.
-- `Experiment_Code/`
+- `/Code/Experiment_Code/`
   Robotic-arm-based experimental-substructure execution, satellite-body
   coupling scripts, force/moment post-processing, and hybrid-test plotting.
-- `Experiment_Code/satellite_hybrid_results/`
-  Stored iteration results used for post-processing and figure generation.
-- `Experiment_Code/dobot_api.py`
+- `Data/`
+  Stored numerical and experimental results.
+- `/Code/Experiment_Code/dobot_api.py`
   Vendor-provided Dobot robotic-arm TCP/IP API. This file is intentionally kept
   unchanged to preserve hardware communication behavior.
 
